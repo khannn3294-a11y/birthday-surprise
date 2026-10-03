@@ -1028,3 +1028,93 @@ h1 span,
     }
 }
 
+/* =========================
+   MOBILE TEXT SIZE FIX
+========================= */
+
+@media (max-width: 600px) {
+
+    .top-text {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .welcome-text {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .main-btn,
+    .cake-btn {
+        font-size: 15px;
+        padding: 16px 27px;
+    }
+
+    .section-heading h2 {
+        font-size: 40px;
+    }
+
+    .section-heading small {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .card-number {
+        font-size: 22px;
+    }
+
+    .modal-small {
+        font-size: 12px;
+    }
+
+    .modal-box h2 {
+        font-size: 38px;
+    }
+
+    .modal-message {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .cake-heading {
+        font-size: 48px;
+    }
+
+    .cake-text {
+        font-size: 15px;
+    }
+
+    .wish-text {
+        font-size: 14px;
+    }
+
+    .final-heading {
+        font-size: 45px;
+    }
+
+    .final-card h3 {
+        font-size: 30px;
+    }
+
+    .final-card p {
+        font-size: 14px;
+    }
+
+    .final-message-box h2 {
+        font-size: 37px;
+    }
+
+    .love-message p {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .final-sign {
+        font-size: 13px;
+    }
+}
+
