@@ -51,7 +51,7 @@ function showFinal() {
 const memories = {
 
     1: {
-        image: "images/photo1.jpg",
+        image: "images/photo1.jpg.jpeg",
         small: "A LITTLE MEMORY",
         title: "You Are Special ❤️",
         message:
@@ -59,7 +59,7 @@ const memories = {
     },
 
     2: {
-        image: "images/photo2.jpg",
+        image: "images/photo2.jpg.jpeg",
         small: "JUST A LITTLE NOTE",
         title: "Keep Smiling 🌸",
         message:
@@ -67,7 +67,7 @@ const memories = {
     },
 
     3: {
-        image: "images/photo3.jpg",
+        image: "images/photo3.jpg.jpeg",
         small: "SOMETHING FROM MY HEART",
         title: "You Matter ❤️",
         message:
@@ -75,7 +75,7 @@ const memories = {
     },
 
     4: {
-        image: "images/photo4.jpg",
+        image: "images/photo4.jpg.jpeg",
         small: "A WISH FOR YOU",
         title: "Stay Happy ✨",
         message:
@@ -83,7 +83,7 @@ const memories = {
     },
 
     5: {
-        image: "images/photo5.jpg",
+        image: "images/photo5.jpg.jpeg",
         small: "ONE MORE THING",
         title: "For Someone Special 💕",
         message:
