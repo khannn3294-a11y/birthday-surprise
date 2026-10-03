@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>For Someone Special ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts">
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+    </div>
+
+
+    <!-- =========================
+         WELCOME
+    ========================== -->
+
+    <section id="welcome" class="page active">
+
+        <div class="welcome-heart">♥</div>
+
+        <p class="top-text">A LITTLE SURPRISE FOR YOU</p>
+
+        <h1>
+            Happy Birthday
+            <span>My Special Person ❤️</span>
+        </h1>
+
+        <p class="welcome-text">
+            I made this little place just for you...
+            because some people deserve more than
+            just a birthday wish.
+        </p>
+
+        <button class="main-btn" onclick="showMemories()">
+            Open Your Surprise
+            <span>♥</span>
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORY WALL
+    ========================== -->
+
+    <section id="memories" class="page">
+
+        <div class="section-heading">
+            <p>MEMORIES • MOMENTS • YOU</p>
+
+            <h2>
+                A Few Little Things
+                <span>For You ❤️</span>
+            </h2>
+
+            <small>Tap any card you want to open</small>
+        </div>
+
+
+        <div class="cards-grid">
+
+            <!-- CARD 1 -->
+            <div class="memory-card card-one"
+                 onclick="openMemory(1)">
+
+                <div class="card-number">01</div>
+
+                <div class="mini-photo">
+                    <img src="images/pic1.jpg.jpeg" alt="Memory">
+                </div>
+
+                <div class="card-title">
+                    <span>♡</span>
+                    A Beautiful Memory
+                </div>
+
+            </div>
+
+
+            <!-- CARD 2 -->
+            <div class="memory-card card-two"
+                 onclick="openMemory(2)">
+
+                <div class="card-number">02</div>
+
+                <div class="mini-photo">
+                    <img src="images/pic2.jpg.jpeg" alt="Memory">
+                </div>
+
+                <div class="card-title">
+                    <span>♡</span>
+                    Something Special
+                </div>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div class="memory-card card-three"
+                 onclick="openMemory(3)">
+
+                <div class="card-number">03</div>
+
+                <div class="mini-photo">
+                    <img src="images/pic3.jpg.jpeg" alt="Memory">
+                </div>
+
+                <div class="card-title">
+                    <span>♡</span>
+                    Just For You
+                </div>
+
+            </div>
+
+
+            <!-- CARD 4 -->
+            <div class="memory-card card-four"
+                 onclick="openMemory(4)">
+
+                <div class="card-number">04</div>
+
+                <div class="mini-photo">
+                    <img src="images/pic4.jpg.jpeg" alt="Memory">
+                </div>
+
+                <div class="card-title">
+                    <span>♡</span>
+                    One More Thing
+                </div>
+
+            </div>
+
+
+            <!-- CARD 5 -->
+            <div class="memory-card card-five"
+                 onclick="openMemory(5)">
+
+                <div class="card-number">05</div>
+
+                <div class="mini-photo">
+                    <img src="images/pic5.jpg.jpeg" alt="Memory">
+                </div>
+
+                <div class="card-title">
+                    <span>♡</span>
+                    From My Heart
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button class="cake-btn" onclick="showCake()">
+            Something Sweet 🎂
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORY POPUP
+    ========================== -->
+
+    <div id="memoryModal" class="modal">
+
+        <div class="modal-box">
+
+            <button class="close-btn"
+                    onclick="closeMemory()">×</button>
+
+            <div class="big-photo">
+                <img id="modalImage"
+                     src=""
+                     alt="Memory">
+            </div>
+
+            <p id="modalSmallText" class="modal-small">
+                A LITTLE NOTE
+            </p>
+
+            <h2 id="modalTitle">
+                Happy Birthday ❤️
+            </h2>
+
+            <p id="modalMessage" class="modal-message">
+                You are someone very special.
+            </p>
+
+            <div class="modal-heart">♥</div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         CAKE
+    ========================== -->
+
+    <section id="cake" class="page">
+
+        <p class="top-text">AND NOW...</p>
+
+        <h2 class="cake-heading">
+            Make A Wish
+            <span>🎂</span>
+        </h2>
+
+        <p class="cake-text">
+            Close your eyes, make a wish,
+            and blow the candle. ❤️
+        </p>
+
+
+        <div class="cake-area">
+
+            <div class="flame" id="flame"></div>
+
+            <div class="candle"></div>
+
+            <div class="cake-top"></div>
+
+            <div class="cake-body">
+                <div class="cake-line"></div>
+                <div class="cake-line second"></div>
+            </div>
+
+            <div class="plate"></div>
+
+        </div>
+
+
+        <button class="main-btn"
+                id="blowBtn"
+                onclick="blowCandle()">
+            Blow The Candle 🕯️
+        </button>
+
+
+        <p id="wishText" class="wish-text">
+            Make your wish... ✨
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL
+    ========================== -->
+
+    <section id="final" class="page">
+
+        <div class="final-heart">
+            ♥
+        </div>
+
+        <p class="top-text">ONE LAST THING...</p>
+
+        <h2 class="final-heading">
+            Open This
+            <span>With Your Heart 💌</span>
+        </h2>
+
+        <div class="final-card"
+             onclick="openFinalMessage()">
+
+            <div class="envelope-icon">
+                💌
+            </div>
+
+            <h3>A Message For You</h3>
+
+            <p>Tap to open</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL MESSAGE
+    ========================== -->
+
+    <div id="finalModal" class="modal final-modal">
+
+        <div class="final-message-box">
+
+            <button class="close-btn"
+                    onclick="closeFinalMessage()">×</button>
+
+            <div class="final-big-heart">♥</div>
+
+            <p class="modal-small">
+                FROM MY HEART
+            </p>
+
+            <h2>
+                Happy Birthday,
+                My Special Person ❤️
+            </h2>
+
+            <div class="love-message">
+
+                <p>
+                    I don't know if words can ever explain
+                    how special you are to me...
+                </p>
+
+                <p>
+                    But today, I just want you to know that
+                    your presence makes ordinary moments
+                    feel a little more beautiful.
+                </p>
+
+                <p>
+                    I hope this new year of your life brings
+                    you endless happiness, beautiful memories,
+                    peaceful days and everything your heart
+                    wishes for.
+                </p>
+
+                <p>
+                    Keep smiling. Keep being the amazing
+                    person you are.
+                </p>
+
+                <p class="last-line">
+                    Happy Birthday once again. ❤️
+                    <br>
+                    You deserve all the happiness in the world.
+                </p>
+
+            </div>
+
+            <div class="final-sign">
+                Made with ♥
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
